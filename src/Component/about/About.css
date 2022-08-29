@@ -58,6 +58,7 @@ a.bottom__to__top.active{
 
 @media only screen and (max-width: 390px){
     button.about.btn1.pointer {
+        display: center;
         max-width: 50%;
         font-size: 90%;
     }

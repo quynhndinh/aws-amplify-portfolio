@@ -3,6 +3,9 @@ import './Footer.css';
 import footerImg from '../../image/quynhdinhlogo.png';
 import githubImg from '../../image/github.png';
 import linkedin from '../../image/linkinin.png';
+var year = new Date().getFullYear();
+
+
 function Footer() {
     return (
         <div className='footer d__flex align__items__center justify__content__space__between pz-10' style={{"padding":"10px 20px", "zIndex":"100"}}>
@@ -18,7 +21,7 @@ function Footer() {
                 </a>
             </div>
             
-            <span className='copyright' style={{color:"#c6c9d8", "fontSize":"14px", "opacity": "0.75"}}>Copyright @ 2021 programmer Quynh Dinh. All Rights Reserved.</span>
+            <span className='copyright' style={{color:"#c6c9d8", "fontSize":"14px", "opacity": "0.75"}}>Copyright @ {year} programmer Quynh Dinh. All Rights Reserved.</span>
         </div>
     )
 }
