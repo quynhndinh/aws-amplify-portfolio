@@ -24,8 +24,7 @@ function About() {
               <div className="about__button d__flex align__items__center">
                 <a
                   className="about btn1 pointer"
-                  href={resumePdf}
-                  download="Quynh Dinh Resume"
+                  href= {resumePdf}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
