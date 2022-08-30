@@ -25,7 +25,7 @@ function About() {
                 <a
                   className="about btn1 pointer"
                   href={resumePdf}
-  
+                  download="Quynh Dinh Resume"
                   target="blank"
                   rel="noopener noreferrer"
                 >
