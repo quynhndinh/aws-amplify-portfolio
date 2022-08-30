@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import aboutImg from "../../image/Profile.jpg";
-import resumePdf from "../../image/Quynh Dinh.pdf";
+import resumePdf from "../../image/QuynhDinh.pdf";
 
 function About() {
  
