@@ -14,7 +14,7 @@ function Navbar() {
     upToTop.classList.toggle("active", window.scrollY > 0);
   });
   // Toogle Menu
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   return (
     <div className="Navbar" id="navbar">
       <div className="header d__flex align__items__center pxy__30">
